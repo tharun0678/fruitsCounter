@@ -1,0 +1,69 @@
+/* Write your CSS here */
+.bg {
+  background-color: #ffd569;
+  padding: 10px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  background-color: #ffffff;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-width: 0px;
+  border-radius: 18px;
+}
+
+.heading {
+  color: #000000;
+}
+
+.count {
+  color: #ffd569;
+}
+
+.img-styles {
+  height: 175px;
+  width: 175px;
+  margin: 10px;
+}
+.butn {
+  text-align: center;
+}
+
+.butn-styles {
+  color: #ffffff;
+  background-color: #007bff;
+  padding: 7px;
+  border-radius: 5px;
+  border-width: 0px;
+}
+@media screen and (min-width: 576px), (max-width: 576px) {
+  .image-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media screen and (min-width: 768px) {
+  .image-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .bg {
+    height: 100vh;
+  }
+  .img-styles {
+    height: 250px;
+    width: 250px;
+    margin-right: 20px;
+  }
+}
